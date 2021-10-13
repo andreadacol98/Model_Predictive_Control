@@ -1,6 +1,5 @@
 # Model Predictive Control
-Implementation of a variety of MPC controllers for temperature regulation of a building. Specifically, the controller tracks the reference temperatures while satisfying safety constraints at all time steps. Modeled using simplified heat flows between the rooms and the environment, the dynamical system is affected by exogenous disturbances, e.g. solar radiation.<br>
-Further info on the follwing tasks can be found in "Assignment.pdf". Solutions and considerations are instead in "report.pdf".
+Implementation of a variety of MPC controllers for temperature regulation of a building. Specifically, the controller tracks the reference temperatures while satisfying safety constraints at all time steps. Modeled using simplified heat flows between the rooms and the environment, the dynamical system is affected by exogenous disturbances, e.g. solar radiation.
 ## Tasks
 
 ### Unconstrained Optimal Control
@@ -15,3 +14,5 @@ Soft constraints are introduced to tackle the fact that in practice implementati
 #### Offset-Free MPC
 Disturbances in the heat flows are never known exactly. Therefore, estimation of the actual disturbances is needed to ensure offset-free reference tracking. In particular, in this subtask we have been dealing with a constant but unknown disturbance.
 
+<br><br>
+Further info on the follwing tasks can be found in "Assignment.pdf". Solutions and considerations are instead in "report.pdf".
