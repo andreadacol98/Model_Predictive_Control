@@ -12,6 +12,5 @@ Design of MPC controllers with feasibility and stability guarantees in closed lo
 Design of a soft-constrained MPC controller.
 Soft constraints are introduced to tackle the fact that in practice implementations the aformentioned optimization problems can be infeasible despite the theoretical guarantees on the constraints' satisfaction and stability due to model mismatch or unmodeled disturbances.
 #### Offset-Free MPC
-Disturbances in the heat flows are never known exactly. Therefore, estimation of the actual disturbances is needed to ensure offset-free reference tracking. In particular, in this subtask we have been dealing with a constant but unknown disturbance <i>d</i>.
-#### FORCES PRO
+Disturbances in the heat flows are never known exactly. Therefore, estimation of the actual disturbances is needed to ensure offset-free reference tracking. In particular, in this subtask we have been dealing with a constant but unknown disturbance.
 
