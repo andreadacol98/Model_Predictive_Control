@@ -14,5 +14,5 @@ Soft constraints are introduced to tackle the fact that in practice implementati
 #### Offset-Free MPC
 Disturbances in the heat flows are never known exactly. Therefore, estimation of the actual disturbances is needed to ensure offset-free reference tracking. In particular, in this subtask we have been dealing with a constant but unknown disturbance.
 
-<br><br>
-Further info on the follwing tasks can be found in "Assignment.pdf". Solutions and considerations are instead in "report.pdf".
+<br>
+Further info on this programming exercise can be found in "Assignment.pdf". Solutions as well as considerations on the problem itself are instead in "report.pdf".
